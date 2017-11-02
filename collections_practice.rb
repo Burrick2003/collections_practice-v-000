@@ -1,5 +1,5 @@
 def sort_array_asc(input_array)#sorts integer array ascending
-end 
+end
 
 def sort_array_desc(input_array)#duh
 end
@@ -17,7 +17,7 @@ def kesha_maker(input_array)#replaces 3rd character in each string with $
 end
 
 def find_a(input_array)#returns strings that start with "a"
-  
+
 end
 
 def sum_array(input_array)
