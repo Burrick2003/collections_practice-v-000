@@ -58,6 +58,7 @@ counter = 0
     else
       input_array[counter] = input_array[counter] << "s"
     end
+    counter +=1
   end
   input_array
 end
