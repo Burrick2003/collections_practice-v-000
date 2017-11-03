@@ -8,16 +8,8 @@ end
 
 def sort_array_char_count(input_array)#sorts ascending by string length
 #  input_array.sort_by { |a| a.length }
-  input_array.sort do |a, b|
-    if a.size == b.size
-      0
-    elsif a.size < b.size
-      -1
-    elsif a.size > b.size
-      1
-    end
-
-  end
+  input_array.sort{ |a, b| a <=> b }
+  
 end
 
 def swap_elements(input_array)#swaps 2nd and 3rd elements, input is array, element A, element B
