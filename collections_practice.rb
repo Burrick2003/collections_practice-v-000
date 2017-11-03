@@ -51,7 +51,7 @@ end
 
 def add_s(input_array)#adds a "s" to each word EXCEPT the second element
   protect = input_array[1]
-    input_array.each do |element|
+    input_array.map do |element|
       element = element << "s"
     end
 
