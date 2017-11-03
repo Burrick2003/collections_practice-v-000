@@ -7,6 +7,8 @@ def sort_array_desc(input_array)#duh
 end
 
 def sort_array_chair_count(input_array)#sorts ascending by string length
+  input_array.size.sort do |a, b|
+  end
 end
 
 def swap_elements(input_array, index_A, index_B)#swaps 2nd and 3rd elements, input is array, element A, element B
