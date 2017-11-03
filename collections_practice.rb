@@ -58,17 +58,15 @@ counter = 0
     else
       input_array[counter] = input_array[counter] << "s"
     end
-
   end
   input_array
-
 end
-def add_s_whydoesntthiswork
-  protect = input_array[1]
-    new = input_array.map do |element|
-      element = element << "s"
-    end
-
-  new[1] = protect
-  new
-end
+#def add_s_whydoesntthiswork
+#  protect = input_array[1]
+#    new = input_array.map do |element|
+#      element = element << "s"
+#    end
+#
+#  new[1] = protect
+#  new
+#end
