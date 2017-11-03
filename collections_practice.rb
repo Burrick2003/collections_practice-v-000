@@ -38,6 +38,13 @@ def kesha_maker(input_array)#replaces 3rd character in each string with $
 end
 
 def find_a(input_array)#returns strings that start with "a"
+counter = 0
+output = []
+  input_array each do |element|
+    if element.start_with?("a")
+      output << element
+    end
+  output
 
 end
 
