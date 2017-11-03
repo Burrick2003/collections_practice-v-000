@@ -53,8 +53,8 @@ end
 def add_s(input_array)#adds a "s" to each word EXCEPT the second element
 counter = 0
   while counter < input_array.size
-    if
-      counter = 1
+    if counter = 1
+      nil
     else
       input_array[counter] = input_array[counter] << "s"
     end
