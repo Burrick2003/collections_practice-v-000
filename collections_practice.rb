@@ -9,11 +9,11 @@ end
 def sort_array_char_count(input_array)#sorts ascending by string length
 #  input_array.sort_by { |a| a.length }
   input_array.sort do |a, b|
-    if size(a) == size(b)
+    if a.size == b.size
       0
-    elsif size(a) < size(b)
+    elsif a.size < b.size
       -1
-    elsif size(a) > size(b)
+    elsif a.size > b.size
       1
     end
 
