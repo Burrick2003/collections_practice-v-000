@@ -11,6 +11,7 @@ def sort_array_char_count(input_array)#sorts ascending by string length
 end
 
 def swap_elements(input_array, index_A, index_B)#swaps 2nd and 3rd elements, input is array, element A, element B
+
 end
 
 def reverse_array(input_array)#reverses an array
