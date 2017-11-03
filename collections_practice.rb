@@ -21,12 +21,17 @@ def sort_array_char_count(input_array)#sorts ascending by string length
 end
 
 def swap_elements(input_array, index_origin, index_destination)#swaps 2nd and 3rd elements, input is array, element A, element B
+
+end
+
+def swap_elements_from_to(input_array, index_origin, index_destination)
   temp = input_array[index_destination]
   input_array[index_destination] = input_array[index_origin]
   input_array[index_origin] = temp
   input_array
 end
-
+# test_array = ["My", "Halloweeen", "Costume", "Is", "A", "Ocelot."]
+# swap_elements_from_to(test_array, 2, 5]
 def reverse_array(input_array)#reverses an array
 end
 
