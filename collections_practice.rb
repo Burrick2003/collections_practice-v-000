@@ -40,7 +40,7 @@ end
 def find_a(input_array)#returns strings that start with "a"
 counter = 0
 output = []
-  input_array each do |element|
+  input_array.each do |element|
     if element.start_with?("a")
       output << element
     end
