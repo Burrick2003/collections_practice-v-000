@@ -44,8 +44,9 @@ end
 def sum_array(input_array)
 start = 0
   input_array.each do |element|
-    start = start + element.strip
+    start = start + element
   end
+  start
 end
 
 def add_s(input_array)#adds a "s" to each word EXCEPT the second element
