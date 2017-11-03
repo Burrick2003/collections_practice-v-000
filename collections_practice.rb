@@ -49,6 +49,7 @@ start = 0
   start
 end
 
+#both of these work, had to tweak the map
 def add_saaaa(input_array)#adds a "s" to each word EXCEPT the second element
 counter = 0
   while counter < input_array.size
