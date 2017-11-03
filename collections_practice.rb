@@ -34,8 +34,10 @@ def reverse_array(input_array)#reverses an array
 end
 
 def kesha_maker(input_array)#replaces 3rd character in each string with $
-  input_array.map do |element|
+output=[]
+  input_array.each do |element|
     element[2] = "$"
+    output << element
   end
 end
 
