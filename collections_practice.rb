@@ -10,6 +10,7 @@ def sort_array_char_count(input_array)#sorts ascending by string length
 #  input_array.sort_by { |a| a.length }
   input_array.sort_by do |a, b|
     a[0].size <=> b[0].size
+  end
 end
 
 def swap_elements(input_array, index_A, index_B)#swaps 2nd and 3rd elements, input is array, element A, element B
