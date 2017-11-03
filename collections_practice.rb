@@ -49,7 +49,7 @@ output = []
       output << element
     end
   end
-output
+#output
 end
 
 def sum_array(input_array)
@@ -71,7 +71,7 @@ counter = 0
     end
     counter +=1
   end
-  input_array
+#  input_array
 end
 
 
