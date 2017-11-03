@@ -34,7 +34,7 @@ def reverse_array(input_array)#reverses an array
 end
 
 def kesha_maker(input_array)#replaces 3rd character in each string with $
-  
+
 end
 
 def find_a(input_array)#returns strings that start with "a"
@@ -45,6 +45,7 @@ def sum_array(input_array)
 start = 0
   input_array.each do |element|
     start = start + element
+  end
 end
 
 def add_s(input_array)#adds a "s" to each word EXCEPT the second element
