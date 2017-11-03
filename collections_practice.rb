@@ -71,7 +71,7 @@ counter = 0
     end
     counter +=1
   end
-#  input_array
+  input_array
 end
 
 
