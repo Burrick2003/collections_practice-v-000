@@ -50,4 +50,11 @@ start = 0
 end
 
 def add_s(input_array)#adds a "s" to each word EXCEPT the second element
+  protect = input_array[1]
+    input_array.each do |element|
+      element = element + "s"
+    end
+
+  input_array[1] = protect
+  input_array
 end
