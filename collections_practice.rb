@@ -3,6 +3,7 @@ def sort_array_asc(input_array)#sorts integer array ascending
 end
 
 def sort_array_desc(input_array)#duh
+  input_array.sort {|a, b| b<=>a }
 end
 
 def sort_array_chair_count(input_array)#sorts ascending by string length
