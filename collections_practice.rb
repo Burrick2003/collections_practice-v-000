@@ -8,7 +8,7 @@ end
 
 def sort_array_char_count(input_array)#sorts ascending by string length
 #  input_array.sort_by do |a| a.length
-  input_array.sort {|a, a.size|}
+  input_array.sort {|a|, a.size}
   end
 end
 
