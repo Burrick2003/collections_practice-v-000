@@ -16,7 +16,7 @@ def sort_array_char_count(input_array)#sorts ascending by string length
     elsif a.size > b.size
       1
     end
-    
+
   end
 end
 
