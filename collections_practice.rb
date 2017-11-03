@@ -49,7 +49,7 @@ start = 0
   start
 end
 
-def add_s(input_array)#adds a "s" to each word EXCEPT the second element
+def add_saaaa(input_array)#adds a "s" to each word EXCEPT the second element
 counter = 0
   while counter < input_array.size
     if
@@ -60,9 +60,9 @@ counter = 0
 
   end
   input_array
-  
+
 end
-def add_s_why_doesnt_this_work
+def add_s
   protect = input_array[1]
     new = input_array.map do |element|
       element = element << "s"
