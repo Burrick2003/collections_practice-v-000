@@ -44,6 +44,7 @@ output = []
     if element.start_with?("a")
       output << element
     end
+  end
   output
 
 end
