@@ -30,6 +30,7 @@ end
 # swap_elements_from_to(test_array, 2, 5)
 # puts test_array
 def reverse_array(input_array)#reverses an array
+  input_array.reverse
 end
 
 def kesha_maker(input_array)#replaces 3rd character in each string with $
