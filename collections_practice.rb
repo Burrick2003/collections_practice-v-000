@@ -32,6 +32,7 @@ def swap_elements_from_to(input_array, index_origin, index_destination)
 end
 # test_array = ["My", "Halloweeen", "Costume", "Is", "A", "Ocelot."]
 # swap_elements_from_to(test_array, 2, 5]
+# puts test_array
 def reverse_array(input_array)#reverses an array
 end
 
