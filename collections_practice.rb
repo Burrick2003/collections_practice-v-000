@@ -44,7 +44,7 @@ end
 def sum_array(input_array)
 start = 0
   input_array.each do |element|
-    start = start + element
+    start = start + element.strip
   end
 end
 
