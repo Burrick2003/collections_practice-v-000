@@ -7,8 +7,8 @@ def sort_array_desc(input_array)#duh
 end
 
 def sort_array_chair_count(input_array)#sorts ascending by string length
-  input_array.sort do |a, b|
-    b=a.size
+  input_array.sort_by do |a, a.length|
+    
   end
 end
 
