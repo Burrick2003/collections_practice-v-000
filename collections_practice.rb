@@ -62,7 +62,7 @@ counter = 0
   end
   input_array
 end
-def add_s
+def add_s(input_array)
 protect = input_array[1]
     new = input_array.map do |element|
       element = element << "s"
