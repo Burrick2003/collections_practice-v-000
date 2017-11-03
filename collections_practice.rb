@@ -50,7 +50,7 @@ start = 0
 end
 
 #both of these work, had to tweak the #map
-def add_s(input_array)#adds a "s" to each word EXCEPT the second element
+def add_f(input_array)#adds a "s" to each word EXCEPT the second element
 counter = 0
   while counter < input_array.size
     if counter == 1
@@ -62,12 +62,12 @@ counter = 0
   end
   input_array
 end
-#def add_s_whydoesntthiswork
-#  protect = input_array[1]
-#    new = input_array.map do |element|
-#      element = element << "s"
-#    end
-#
-#  new[1] = protect
-#  new
-#end
+def add_s
+protect = input_array[1]
+    new = input_array.map do |element|
+      element = element << "s"
+    end
+
+  new[1] = protect
+  new
+end
