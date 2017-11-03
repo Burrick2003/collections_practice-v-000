@@ -62,7 +62,9 @@ counter = 0
   end
   input_array
 end
-def add_sF(input_array)
+
+
+def add_sF(input_array)#garbage, rspec catches the first return regardless
 protect = input_array[1]
     new = input_array.map do |element|
       element = element << "s"
